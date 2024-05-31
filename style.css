@@ -1,0 +1,171 @@
+body {
+    font-family: 'Segoe UI' !important;
+    background-color: #1b1b1b;
+    width: 400px;
+    height: 4000px;
+    margin: 0;
+}
+
+.header {
+    background-color: #1b1b1b;
+    height: 45px;
+    color: white;
+}
+
+.header #logo {
+    margin-top: 5px;
+    margin-left: 3px;
+    height: 30px;
+}
+
+.header #hamburger {
+    margin-top: 5px;
+    float: right;
+    margin-right: 5px;
+    height: 30px;
+}
+
+.video video {
+    height: auto;
+    width: 100%;
+    filter: brightness(70%);
+}
+
+.video p {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-top: -200px;
+    margin-left: 38px;
+}
+
+.buttonContainer {
+    position: inherit;
+    padding: 4%;
+    margin-top: -4px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1b1b1b;
+}
+
+.buttonContainer .button1 {
+    font-family: 'Segoe UI';
+    background-color: rgb(45, 72, 196);
+    color: white;
+    border: 1px solid rgb(0, 140, 233);
+    border-radius: 4px;
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.buttonContainer .button1:hover {
+    background-color: transparent;
+    border-color: rgb(177, 177, 177);
+    transition: 0.2s;
+}
+
+.buttonContainer .button2 {
+    font-family: 'Segoe UI';
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgb(0, 140, 233);
+    border-radius: 4px;
+    border-color: rgb(177, 177, 177);
+    width: 130px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.buttonContainer .button2:hover {
+    background-color: rgb(45, 72, 196);
+    border: 1px solid rgb(0, 140, 233);
+    transition: 0.2s;
+}
+
+.titoloslider {
+    margin-top: -20px;
+    padding-right: 6%;
+    padding-left: 5%;
+    color: white;
+    text-align: center;
+}
+
+.carslider {
+    margin-top: -20px;
+    height: 340px;
+    color: white;
+    overflow: auto;
+    white-space: nowrap;
+    display: flex;
+}
+
+.autocard {
+    margin-top: 40px;
+    padding-left: 5%;
+}
+
+.autocard .nome {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.autocard .prezzo {
+    margin-top: -12px;
+    font-size: 16px;
+}
+
+.autocard .autoimmagine {
+    height: 150px;
+    width: 240px;
+}
+
+.autocard a {
+    font-weight: bold;
+    color: rgb(0, 153, 255);
+}
+
+.ads{
+    padding: 5%;
+}
+
+.ads p{
+    font-size: 20px;
+    hyphens: auto;
+    text-align: justify;
+    text-justify: distribute-all-lines;
+}
+
+.infocard{
+    background-color: #252525;
+    margin: 3%;
+    border-radius: 5px;
+    padding: 5%;
+    color: white;
+    font-size: 16px;
+    text-align: justify;
+    text-justify: distribute-all-lines;
+    margin-bottom: 40px;
+}
+
+.infocard p{
+    font-size: 20px;
+    hyphens: auto;
+    text-align: justify;
+    text-justify: distribute-all-lines;
+}
+
+.infocard img{
+    margin-top: 20px;
+    width: 100%;
+    margin-right: 5px;
+}
